@@ -1,0 +1,14 @@
+# Visual Studio
+.vs/
+
+
+# Temporary/user-specific files
+*.rar
+
+
+# Personal instructions
+instructions - v.01 - run one command each time.txt
+instructions - v.02 - run once.txt
+/11- project (Microsoft Visual Studio)/env_CQC/
+
+

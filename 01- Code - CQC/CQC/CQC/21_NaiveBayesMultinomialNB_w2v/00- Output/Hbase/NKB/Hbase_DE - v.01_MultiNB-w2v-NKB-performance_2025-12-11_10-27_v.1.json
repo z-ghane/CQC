@@ -1,0 +1,36 @@
+{
+  "dataset": "../../../10- Data/one-phase method/Hbase/Hbase_DE - v.01.csv",
+  "preprocessing_params": {
+    "data": {
+      "dataset": {
+        "columns_name": [
+          "text",
+          "bug_class_2"
+        ],
+        "columns_dtype": {
+          "0": "str",
+          "1": "int64"
+        },
+        "bug_classes": [
+          0,
+          1
+        ],
+        "num_bug_classes": 2
+      }
+    },
+    "is_keyword_Base": false,
+    "docMaxLen": null
+  },
+  "model_results": {
+    "confusion_matrix": [
+      [
+        1546,
+        0
+      ],
+      [
+        754,
+        1
+      ]
+    ]
+  }
+}

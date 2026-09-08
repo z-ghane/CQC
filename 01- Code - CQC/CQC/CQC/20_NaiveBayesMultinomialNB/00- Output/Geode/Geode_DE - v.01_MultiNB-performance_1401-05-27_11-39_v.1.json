@@ -1,0 +1,34 @@
+{
+  "dataset": "gdrive/MyDrive/Colab Notebooks/paper/00- My Data/one-phased method/Geode/Geode_DE - v.01.csv",
+  "preprocessing_params": {
+    "data": {
+      "dataset": {
+        "columns_name": [
+          "text",
+          "bug_class_2"
+        ],
+        "columns_dtype": {
+          "0": "str",
+          "1": "int64"
+        },
+        "bug_classes": [
+          0,
+          1
+        ],
+        "num_bug_classes": 2
+      }
+    }
+  },
+  "model_results": {
+    "confusion_matrix": [
+      [
+        713,
+        0
+      ],
+      [
+        189,
+        0
+      ]
+    ]
+  }
+}

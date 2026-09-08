@@ -1,0 +1,44 @@
+{
+  "dataset": "../../../10- Data/one-phase method/Camel/Camel_DE - v.02.csv",
+  "preprocessing_params": {
+    "data": {
+      "dataset": {
+        "columns_name": [
+          "text",
+          "bug_class_2"
+        ],
+        "columns_dtype": {
+          "0": "str",
+          "1": "int64"
+        },
+        "bug_classes": [
+          0,
+          1
+        ],
+        "num_bug_classes": 2
+      }
+    }
+  },
+  "class_probability": {
+    "classes": [
+      0,
+      1
+    ],
+    "probabilities": [
+      0.67,
+      0.33
+    ]
+  },
+  "model_results": {
+    "confusion_matrix": [
+      [
+        3899,
+        1964
+      ],
+      [
+        2098,
+        1058
+      ]
+    ]
+  }
+}
